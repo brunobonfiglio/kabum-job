@@ -1,0 +1,3 @@
+codigo:
+    type: string
+    required: true

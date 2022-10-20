@@ -1,0 +1,112 @@
+<br>
+<h3> Utilizando www.draw.io, desenhe um esquemático em MVC (MODEL-VIEW-CONTROLLER) de uma aplicação flask básica.</h3>
+<img src="{{url_for('static', filename='images/diagrama.png')}}" alt="" class="card-img-top" height="600">
+<br>
+<h3>Descreva o funcionamento do pacote flask_restful</h3>
+<p>Flask-RESTful é uma extensão para Flask que adiciona suporte para construir APIs REST rapidamente. É uma abstração leve que funciona com seus ORM / bibliotecas existentes. Flask-RESTful incentiva as melhores práticas com configuração mínima. </p>
+<br>
+<h3>Descreva o funcionamento do pacote flask.views.MethodView</h3>
+<p>O Flask 0.7 apresenta visões plugáveis ​​inspiradas nas visões genéricas do Django que são baseadas em classes ao invés de funções. A intenção principal é que você possa substituir partes das implementações e, dessa forma, ter visualizações plugáveis ​​e personalizáveis.</p>
+<br>
+
+<h3>Cite os principais eventos e sinal durante um request, como acessá-los e um exemplo prático.</h3>
+<p><b>Evento de pegar os dados na API.</b> </p>
+<p>Para fazer a busca de um produto em uma API, podemos usar o verbo GET do protocolo http passando como parâmetro o id do produto na url.</p>
+<p><b>Evento de pegar os dados na API</b></p>
+<p>Para fazer a busca de mais produtos em uma API, podemos usar o verbo POST do protocolo http passando como parâmetro um JSON contendo os campos a ser pesquisado.</p>
+
+<p><b>Evento de inserir os dados pela API</b></p>
+<p>Para inserir dados através de uma api, podemos usar o verbo POST passando como parâmetro um JSON contendo os campos a ser inserido.</p>
+
+<p><b>Atualizar dados pela API</b></p>
+<p>Para atualizar dados através de uma API, podemos usar o verbo PUT passando como parâmetro um JSON contendo os campos a ser atualizado.</p>
+
+<p><b>Deletar dados pela API</b></p>
+<p>Para deletar dados através de uma API, podemos usar o verbo DELETE passando como parâmetro o id direto na url ou por arquivo JSON.</p>
+<br>
+<h3> Utilizando os conceitos a cima, desenvolva uma aplicação básica em flask que extraia informações de um banco mocado (podes usar os JSONs dos produtos abaixo como mock):</h3>
+
+<p>Para acessar os recursos da aplicacao aconselho usar o software <b> <a href="https://insomnia.rest/download/">Insomnia</a></b></p>
+
+<h2>Produtos</h2>
+<p><a href="http://kabum-job.herokuapp.com/api/v1/produto">http://kabum-job.herokuapp.com/api/v1/produto</a> </p>
+
+<p><b>GET - Lista</b></p>
+<div>Obs: Pode ser feito a filtro, sendo necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>POST - Adicionar</b></p>
+<div>Obs: E necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>PUT - Atualizar</b></p>
+<div>Obs: E necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>DELETE - Deletar</b></p>
+<div>Obs: E necessario passar um JSON contendo o id. {"id": "1"}</div>
+
+
+
+<h2>Oferta</h2>
+<p><a href="http://kabum-job.herokuapp.com/api/v1/oferta">http://kabum-job.herokuapp.com/api/v1/oferta</a> </p>
+
+<p><b>GET - Lista</b></p>
+<div>Obs: Pode ser feito a filtro, sendo necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>POST - Adicionar</b></p>
+<div>Obs: E necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>PUT - Atualizar</b></p>
+<div>Obs: E necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>DELETE - Deletar</b></p>
+<div>Obs: E necessario passar um JSON contendo o codigo. {"codigo": "1"}</div>
+
+
+
+<h2>Menus</h2>
+<p><a href="http://kabum-job.herokuapp.com/api/v1/menus">http://kabum-job.herokuapp.com/api/v1/menus</a> </p>
+
+<p><b>GET - Lista</b></p>
+<div>Obs: Pode ser feito a filtro, sendo necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>POST - Adicionar</b></p>
+<div>Obs: E necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>PUT - Atualizar</b></p>
+<div>Obs: E necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>DELETE - Deletar</b></p>
+<div>Obs: E necessario passar um JSON contendo o codigo. {"codigo": "1"}</div>
+
+
+
+<h2>Familia</h2>
+<p><a href="http://kabum-job.herokuapp.com/api/v1/familia">http://kabum-job.herokuapp.com/api/v1/familia</a> </p>
+
+<p><b>GET - Lista</b></p>
+<div>Obs: Pode ser feito a filtro, sendo necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>POST - Adicionar</b></p>
+<div>Obs: E necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>PUT - Atualizar</b></p>
+<div>Obs: E necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>DELETE - Deletar</b></p>
+<div>Obs: E necessario passar um JSON contendo o codigo. {"codigo": "1"}</div>
+
+
+
+<h2>Fabricante</h2>
+<p><a href="http://kabum-job.herokuapp.com/api/v1/fabricante">http://kabum-job.herokuapp.com/api/v1/fabricante</a> </p>
+
+<p><b>GET - Lista</b></p>
+<div>Obs: Pode ser feito a filtro, sendo necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>POST - Adicionar</b></p>
+<div>Obs: E necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>PUT - Atualizar</b></p>
+<div>Obs: E necessario passar um JSON. {"nome": "SSD"}</div>
+
+<p><b>DELETE - Deletar</b></p>
+<div>Obs: E necessario passar um JSON contendo o codigo. {"codigo": "1"}</div>

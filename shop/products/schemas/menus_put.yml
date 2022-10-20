@@ -1,0 +1,12 @@
+codigo:
+    type: integer
+    required: true
+nome:
+    type: string
+    required: false
+amigavel:
+    type: string
+    required: false
+nome_url:
+    type: string
+    required: false

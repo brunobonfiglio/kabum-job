@@ -1,0 +1,21 @@
+codigo:
+    type: string
+    required: true
+evento_codigo:
+    type: integer
+    required: false
+data_inicio:
+    type: integer
+    required: false
+data_fim:
+    type: integer
+    required: false
+quantidade:
+    type: integer
+    required: false
+evento:
+    type: string
+    required: false
+logar:
+    type: integer
+    required: false

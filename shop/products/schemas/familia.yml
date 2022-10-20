@@ -1,0 +1,11 @@
+codigo:
+    type: integer
+    required: false
+nome:
+    type: string
+    required: false
+titulo:
+    type: string
+    required: false
+produtos:
+    type: list

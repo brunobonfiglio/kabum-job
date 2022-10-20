@@ -1,0 +1,282 @@
+id:
+    type: integer
+    required: false
+    nullable: true
+
+brinde:
+    type: string
+    required: false
+    nullable: true
+    
+    
+
+
+oferta:
+    type: dict
+    required: false
+    schema:
+        codigo:
+            type: string
+            required: false
+        evento_codigo:
+            type: integer
+            required: false
+        data_inicio:
+            type: integer
+            required: false
+        data_fim:
+            type: integer
+            required: false
+        quantidade:
+            type: integer
+            required: false
+        evento:
+            type: string
+            required: false
+        logar:
+            type: integer
+            required: false
+
+
+oferta_inicio:
+    type: integer
+    required: false
+    nullable: true
+
+vendedor_nome:
+    type: string
+    required: false
+    nullable: true
+
+id_oferta:
+    type: string
+    required: false
+    nullable: true
+
+id_seller:
+    type: integer
+    required: false
+    nullable: true
+
+nova_descricao:
+    type: string
+    required: false
+    nullable: true
+
+
+menus:
+    type: list
+    required: false
+    schema: 
+        type: dict
+        required: false
+        schema:
+            codigo:
+                type: integer
+                required: false
+            nome:
+                type: string
+                required: false
+            amigavel:
+                type: string
+                required: false
+            nome_url:
+                type: string
+                required: false
+        
+
+
+menu:
+    type: string
+    required: false
+    nullable: true
+
+codigo:
+    type: integer
+    required: false
+    nullable: true
+nome:
+    type: string
+    required: false
+    nullable: true
+
+
+familia:
+    type: dict
+    required: false
+    schema:
+        codigo:
+            type: integer
+            required: false
+        nome:
+            type: string
+            required: false
+        titulo:
+            type: string
+            required: false
+        produtos:
+            type: list
+
+
+fotos:
+    type: list
+    required: false
+    schema: 
+            type: 'string'
+           
+disponibilidade:
+    type: boolean
+    required: false
+    nullable: true
+    
+pre_venda:
+    type: boolean
+    required: false
+    nullable: true
+
+
+
+fabricantes:
+    type: dict
+    required: false
+    schema:
+        codigo:
+            type: integer
+            required: false
+        nome:
+            type: string
+            required: false
+        img:
+            type: string
+            required: false
+ 
+
+preco:
+    type: float
+    required: false
+    nullable: true
+
+preco_prime:
+    type: float
+    required: false
+    nullable: true
+
+preco_desconto:
+    type: float
+    required: false
+    nullable: true
+
+preco_desconto_prime:
+    type: float
+    required: false
+    nullable: true
+
+preco_antigo:
+    type: float
+    required: false
+    nullable: true
+
+economize_prime:
+    type: float
+    required: false
+    nullable: true
+
+descricao:
+    type: string
+    required: false
+    nullable: true
+
+tag_title:
+    type: string
+    required: false
+    nullable: true
+
+tem_frete_gratis:
+    type: boolean
+    required: false
+    nullable: true
+
+frete_gratis_somente_prime:
+    type: boolean
+    required: false
+    nullable: true
+
+tag_description:
+    type: string
+    required: false
+    nullable: true
+
+avaliacao_numero:
+    type: integer
+    required: false
+    nullable: true
+
+avaliacao_nota:
+    type: integer
+    required: false
+    nullable: true
+
+desconto:
+    type: integer
+    required: false
+    nullable: true
+
+is_openbox:
+    type: boolean
+    required: false
+    nullable: true
+
+produto_html:
+    type: string
+    required: false
+    nullable: true
+
+dimensao_peso:
+    type: integer
+    required: false
+    nullable: true
+
+peso:
+    type: string
+    required: false
+    nullable: true
+
+garantia:
+    type: string
+    required: false
+    nullable: true
+
+codigo_anatel:
+    type: string
+    required: false
+    nullable: true
+
+produto_especie:
+    type: integer
+    required: false
+    nullable: true
+
+link_descricao:
+    type: string
+    required: false
+    nullable: true
+
+origem:
+    type: string
+    required: false
+    nullable: true
+
+origem_nome:
+    type: string
+    required: false
+    nullable: true
+
+flag_blackfriday:
+    type: integer
+    required: false
+    nullable: true
+
+sucesso:
+    type: boolean
+    required: false
+    nullable: true

@@ -1,0 +1,9 @@
+codigo:
+    type: integer
+    required: true
+nome:
+    type: string
+    required: true
+img:
+    type: string
+    required: false

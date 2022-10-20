@@ -1,0 +1,182 @@
+id:
+    type: integer
+    required: true
+
+brinde:
+    type: string
+    required: false
+
+
+oferta:
+    type: string
+    required: false
+
+oferta_inicio:
+    type: integer
+    required: false
+
+vendedor_nome:
+    type: string
+    required: false
+
+id_oferta:
+    type: string
+    required: false
+
+id_seller:
+    type: integer
+    required: false
+
+nova_descricao:
+    type: string
+    required: false
+
+
+menus:
+    type: list
+    required: false
+    schema: 
+        type: integer
+        required: false
+       
+menu:
+    type: string
+    required: false
+
+codigo:
+    type: string
+    required: false
+nome:
+    type: string
+    required: false
+
+
+familia:
+    type: integer
+    required: false
+
+
+fotos:
+    type: list
+    required: false
+    schema: 
+        type: 'string'
+        required: false
+
+disponibilidade:
+    type: string
+    required: false
+    
+pre_venda:
+    type: string
+    required: false
+
+
+fabricantes:
+    type: integer
+    required: false
+ 
+
+preco:
+    type: float
+    required: false
+
+preco_prime:
+    type: float
+    required: false
+
+preco_desconto:
+    type: float
+    required: false
+
+preco_desconto_prime:
+    type: float
+    required: false
+
+preco_antigo:
+    type: float
+    required: false
+
+economize_prime:
+    type: float
+    required: false
+
+descricao:
+    type: string
+    required: false
+
+tag_title:
+    type: string
+    required: false
+
+tem_frete_gratis:
+    type: string
+    required: false
+
+frete_gratis_somente_prime:
+    type: string
+    required: false
+
+tag_description:
+    type: string
+    required: false
+
+avaliacao_numero:
+    type: string
+    required: false
+
+avaliacao_nota:
+    type: string
+    required: false
+
+desconto:
+    type: string
+    required: false
+
+is_openbox:
+    type: string
+    required: false
+
+produto_html:
+    type: string
+    required: false
+
+dimensao_peso:
+    type: string
+    required: false
+
+peso:
+    type: string
+    required: false
+
+garantia:
+    type: string
+    required: false
+
+codigo_anatel:
+    type: string
+    required: false
+
+produto_especie:
+    type: string
+    required: false
+
+link_descricao:
+    type: string
+    required: false
+
+origem:
+    type: string
+    required: false
+
+origem_nome:
+    type: string
+    required: false
+
+flag_blackfriday:
+    type: string
+    required: false
+
+sucesso:
+    type: string
+    required: false
